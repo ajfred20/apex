@@ -344,8 +344,8 @@ export function EcosystemSection() {
               </div>
             </div>
 
-            <h3 className="text-xl md:text-2xl font-medium text-white mb-2 relative z-10">Global Accessibility</h3>
-            <p className="text-zinc-400 relative z-10 text-base font-medium tracking-tight">
+            <h3 className="text-xl md:text-2xl font-medium text-white tracking-tight mb-2 relative z-10">Global Accessibility</h3>
+            <p className="text-zinc-400 relative z-10 text-sm font-medium tracking-tight">
               Borderless payment infrastructure that enables seamless transactions across countries and currencies, all
               secured by stablecoin stability.
             </p>
