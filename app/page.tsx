@@ -9,14 +9,13 @@ import { NetworkVisualization } from "@/components/network-visualization"
 import { FeaturesSection } from "@/components/features-section"
 import { StablecoinsSection } from "@/components/stablecoins-section"
 import { TestimonialsSection } from "@/components/testimonials-section"
+import { EcosystemSection } from "@/components/ecosystem-section"
 import { Navbar } from "@/components/navbar"
 import {
   ArrowUpRight,
   CheckCircle,
   ExternalLink,
   FileText,
-  Globe,
-  Zap,
   Wallet,
   Shield,
   ChevronRight,
@@ -26,10 +25,6 @@ import {
   Users,
   Cpu,
   Lock,
-  Sparkles,
-  Lightbulb,
-  Rocket,
-  Clock,
   Blocks,
 } from "lucide-react"
 
@@ -124,6 +119,9 @@ export default function LandingPage() {
         {/* Testimonials Section */}
         <TestimonialsSection />
 
+        {/* Ecosystem Section */}
+        <EcosystemSection />
+
         <section id="decentralized" className="w-full py-12 md:py-24 lg:py-32 border-b border-zinc-800">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -131,7 +129,7 @@ export default function LandingPage() {
                 <div className="inline-block rounded-lg bg-orange-500/10 px-3 py-1 text-sm text-orange-500">
                   Decentralized
                 </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">True Decentralization</h2>
+                <h2 className="text-3xl font-medium tracking-tighter sm:text-5xl">True Decentralization</h2>
                 <p className="max-w-[900px] text-zinc-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Apex is built on a fully decentralized infrastructure, ensuring security, transparency, and user
                   control.
@@ -193,102 +191,6 @@ export default function LandingPage() {
                     <p className="text-zinc-400 mt-2">
                       With no central authority controlling the network, Apex payments cannot be censored or blocked,
                       ensuring financial freedom for all users.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="ecosystem" className="w-full py-12 md:py-24 lg:py-32 border-b border-zinc-800">
-          <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-orange-500/10 px-3 py-1 text-sm text-orange-500">
-                  Ecosystem
-                </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Building a Better Payment Ecosystem</h2>
-                <p className="max-w-[900px] text-zinc-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Apex is more than a payment processor—it's a movement to transform how value moves in the digital
-                  economy.
-                </p>
-              </div>
-            </div>
-            <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3">
-              <div className="flex flex-col items-center space-y-4 rounded-lg border border-zinc-800 bg-zinc-900/50 p-6">
-                <div className="rounded-full bg-orange-500/10 p-3">
-                  <Sparkles className="h-6 w-6 text-orange-500" />
-                </div>
-                <h3 className="text-xl font-bold">Financial Inclusion</h3>
-                <p className="text-center text-zinc-400">
-                  Apex is building a world where anyone with internet access can participate in the global economy,
-                  regardless of location or banking status.
-                </p>
-              </div>
-              <div className="flex flex-col items-center space-y-4 rounded-lg border border-zinc-800 bg-zinc-900/50 p-6">
-                <div className="rounded-full bg-orange-500/10 p-3">
-                  <Lightbulb className="h-6 w-6 text-orange-500" />
-                </div>
-                <h3 className="text-xl font-bold">Innovation Hub</h3>
-                <p className="text-center text-zinc-400">
-                  We're creating an ecosystem where developers can build the next generation of financial applications
-                  on top of our infrastructure.
-                </p>
-              </div>
-              <div className="flex flex-col items-center space-y-4 rounded-lg border border-zinc-800 bg-zinc-900/50 p-6">
-                <div className="rounded-full bg-orange-500/10 p-3">
-                  <Rocket className="h-6 w-6 text-orange-500" />
-                </div>
-                <h3 className="text-xl font-bold">Ecosystem Growth</h3>
-                <p className="text-center text-zinc-400">
-                  By making payments seamless, we're accelerating the adoption of web3 technologies and the growth of
-                  the entire ecosystem.
-                </p>
-              </div>
-            </div>
-            <div className="mx-auto max-w-5xl mt-12">
-              <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-8">
-                <h3 className="text-2xl font-bold mb-6">Our Vision for the Future of Payments</h3>
-                <div className="grid gap-8 md:grid-cols-2">
-                  <div className="flex flex-col space-y-4">
-                    <div className="flex items-center gap-3">
-                      <Clock className="h-5 w-5 text-orange-500" />
-                      <h4 className="font-bold">Instant Settlements</h4>
-                    </div>
-                    <p className="text-zinc-400">
-                      No more waiting days for payments to clear. Apex enables instant settlement for all transactions,
-                      improving cash flow for businesses of all sizes.
-                    </p>
-                  </div>
-                  <div className="flex flex-col space-y-4">
-                    <div className="flex items-center gap-3">
-                      <Globe className="h-5 w-5 text-orange-500" />
-                      <h4 className="font-bold">Borderless Transactions</h4>
-                    </div>
-                    <p className="text-zinc-400">
-                      We're eliminating the concept of "international payments" by making all transactions global by
-                      default, with no additional fees or complications.
-                    </p>
-                  </div>
-                  <div className="flex flex-col space-y-4">
-                    <div className="flex items-center gap-3">
-                      <Shield className="h-5 w-5 text-orange-500" />
-                      <h4 className="font-bold">Enhanced Security</h4>
-                    </div>
-                    <p className="text-zinc-400">
-                      By leveraging blockchain technology, we're creating a payment system that's inherently more secure
-                      than traditional methods, reducing fraud and chargebacks.
-                    </p>
-                  </div>
-                  <div className="flex flex-col space-y-4">
-                    <div className="flex items-center gap-3">
-                      <Zap className="h-5 w-5 text-orange-500" />
-                      <h4 className="font-bold">Programmable Money</h4>
-                    </div>
-                    <p className="text-zinc-400">
-                      Apex enables programmable money flows, allowing for automated payments, escrow services, and
-                      complex financial arrangements without intermediaries.
                     </p>
                   </div>
                 </div>

@@ -38,43 +38,27 @@ const MegaMenu = ({ isOpen, onClose, activeMenu }: MegaMenuProps) => {
             <h4 className="text-xs font-medium uppercase tracking-wider text-zinc-400 mb-4">INFRASTRUCTURE</h4>
             <ul className="space-y-3">
               <li>
-                <Link
-                  href="#decentralized"
-                  className="text-white hover:text-orange-500 transition-colors flex items-center"
-                  onClick={onClose}
-                >
+                <span className="text-white hover:text-orange-500 transition-colors flex items-center cursor-pointer">
                   Decentralized Infrastructure
-                </Link>
+                </span>
               </li>
               <li>
-                <Link
-                  href="#blockchain"
-                  className="text-white hover:text-orange-500 transition-colors flex items-center"
-                  onClick={onClose}
-                >
+                <span className="text-white hover:text-orange-500 transition-colors flex items-center cursor-pointer">
                   Solana Blockchain
-                </Link>
+                </span>
               </li>
               <li>
-                <Link
-                  href="#security"
-                  className="text-white hover:text-orange-500 transition-colors flex items-center"
-                  onClick={onClose}
-                >
+                <span className="text-white hover:text-orange-500 transition-colors flex items-center cursor-pointer">
                   Security Architecture
-                </Link>
+                </span>
               </li>
             </ul>
           </div>
           <div>
             <h4 className="text-xs font-medium uppercase tracking-wider text-zinc-400 mb-4">RESOURCES</h4>
-            <Link
-              href="#whitepaper"
-              className="text-white hover:text-orange-500 transition-colors flex items-center"
-              onClick={onClose}
-            >
+            <span className="text-white hover:text-orange-500 transition-colors flex items-center cursor-pointer">
               Decentralized Infrastructure Whitepaper
-            </Link>
+            </span>
           </div>
         </div>
       </div>
@@ -98,43 +82,27 @@ const MegaMenu = ({ isOpen, onClose, activeMenu }: MegaMenuProps) => {
             <h4 className="text-xs font-medium uppercase tracking-wider text-zinc-400 mb-4">STABLECOINS</h4>
             <ul className="space-y-3">
               <li>
-                <Link
-                  href="#usdc"
-                  className="text-white hover:text-orange-500 transition-colors flex items-center"
-                  onClick={onClose}
-                >
+                <span className="text-white hover:text-orange-500 transition-colors flex items-center cursor-pointer">
                   USDC Integration
-                </Link>
+                </span>
               </li>
               <li>
-                <Link
-                  href="#usdt"
-                  className="text-white hover:text-orange-500 transition-colors flex items-center"
-                  onClick={onClose}
-                >
+                <span className="text-white hover:text-orange-500 transition-colors flex items-center cursor-pointer">
                   USDT Support
-                </Link>
+                </span>
               </li>
               <li>
-                <Link
-                  href="#multi-currency"
-                  className="text-white hover:text-orange-500 transition-colors flex items-center"
-                  onClick={onClose}
-                >
+                <span className="text-white hover:text-orange-500 transition-colors flex items-center cursor-pointer">
                   Multi-Currency Solutions
-                </Link>
+                </span>
               </li>
             </ul>
           </div>
           <div>
             <h4 className="text-xs font-medium uppercase tracking-wider text-zinc-400 mb-4">RESOURCES</h4>
-            <Link
-              href="#stablecoin-whitepaper"
-              className="text-white hover:text-orange-500 transition-colors flex items-center"
-              onClick={onClose}
-            >
+            <span className="text-white hover:text-orange-500 transition-colors flex items-center cursor-pointer">
               Stablecoin Integration Whitepaper
-            </Link>
+            </span>
           </div>
         </div>
       </div>
@@ -158,43 +126,27 @@ const MegaMenu = ({ isOpen, onClose, activeMenu }: MegaMenuProps) => {
             <h4 className="text-xs font-medium uppercase tracking-wider text-zinc-400 mb-4">TOOLS</h4>
             <ul className="space-y-3">
               <li>
-                <Link
-                  href="#sdk"
-                  className="text-white hover:text-orange-500 transition-colors flex items-center"
-                  onClick={onClose}
-                >
+                <span className="text-white hover:text-orange-500 transition-colors flex items-center cursor-pointer">
                   SDKs & Libraries
-                </Link>
+                </span>
               </li>
               <li>
-                <Link
-                  href="#api"
-                  className="text-white hover:text-orange-500 transition-colors flex items-center"
-                  onClick={onClose}
-                >
+                <span className="text-white hover:text-orange-500 transition-colors flex items-center cursor-pointer">
                   API Reference
-                </Link>
+                </span>
               </li>
               <li>
-                <Link
-                  href="#examples"
-                  className="text-white hover:text-orange-500 transition-colors flex items-center"
-                  onClick={onClose}
-                >
+                <span className="text-white hover:text-orange-500 transition-colors flex items-center cursor-pointer">
                   Code Examples
-                </Link>
+                </span>
               </li>
             </ul>
           </div>
           <div>
             <h4 className="text-xs font-medium uppercase tracking-wider text-zinc-400 mb-4">RESOURCES</h4>
-            <Link
-              href="#documentation"
-              className="text-white hover:text-orange-500 transition-colors flex items-center"
-              onClick={onClose}
-            >
+            <span className="text-white hover:text-orange-500 transition-colors flex items-center cursor-pointer">
               Developer Documentation
-            </Link>
+            </span>
           </div>
         </div>
       </div>
@@ -218,40 +170,24 @@ const MegaMenu = ({ isOpen, onClose, activeMenu }: MegaMenuProps) => {
             <h4 className="text-xs font-medium uppercase tracking-wider text-zinc-400 mb-4">COMPANY</h4>
             <ul className="space-y-3">
               <li>
-                <Link
-                  href="#about"
-                  className="text-white hover:text-orange-500 transition-colors flex items-center"
-                  onClick={onClose}
-                >
+                <span className="text-white hover:text-orange-500 transition-colors flex items-center cursor-pointer">
                   About Us
-                </Link>
+                </span>
               </li>
               <li>
-                <Link
-                  href="#team"
-                  className="text-white hover:text-orange-500 transition-colors flex items-center"
-                  onClick={onClose}
-                >
+                <span className="text-white hover:text-orange-500 transition-colors flex items-center cursor-pointer">
                   Team
-                </Link>
+                </span>
               </li>
               <li>
-                <Link
-                  href="#careers"
-                  className="text-white hover:text-orange-500 transition-colors flex items-center"
-                  onClick={onClose}
-                >
+                <span className="text-white hover:text-orange-500 transition-colors flex items-center cursor-pointer">
                   Careers
-                </Link>
+                </span>
               </li>
               <li>
-                <Link
-                  href="#press"
-                  className="text-white hover:text-orange-500 transition-colors flex items-center"
-                  onClick={onClose}
-                >
+                <span className="text-white hover:text-orange-500 transition-colors flex items-center cursor-pointer">
                   Press
-                </Link>
+                </span>
               </li>
             </ul>
           </div>
@@ -303,13 +239,9 @@ export function Navbar() {
             className={cn("relative", activeMenu === "features" && megaMenuOpen ? "text-orange-500" : "text-white")}
             onMouseEnter={() => handleMouseEnter("features")}
           >
-            <Link
-              href="#features"
-              className="text-sm font-medium transition-colors hover:text-orange-500 py-5"
-              onClick={closeMegaMenu}
-            >
+            <span className="text-sm font-medium transition-colors hover:text-orange-500 py-5 cursor-pointer">
               Features
-            </Link>
+            </span>
             {activeMenu === "features" && megaMenuOpen && (
               <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-orange-500"></div>
             )}
@@ -318,13 +250,9 @@ export function Navbar() {
             className={cn("relative", activeMenu === "stablecoins" && megaMenuOpen ? "text-orange-500" : "text-white")}
             onMouseEnter={() => handleMouseEnter("stablecoins")}
           >
-            <Link
-              href="#stablecoins"
-              className="text-sm font-medium transition-colors hover:text-orange-500 py-5"
-              onClick={closeMegaMenu}
-            >
+            <span className="text-sm font-medium transition-colors hover:text-orange-500 py-5 cursor-pointer">
               Stablecoins
-            </Link>
+            </span>
             {activeMenu === "stablecoins" && megaMenuOpen && (
               <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-orange-500"></div>
             )}
@@ -333,13 +261,9 @@ export function Navbar() {
             className={cn("relative", activeMenu === "developers" && megaMenuOpen ? "text-orange-500" : "text-white")}
             onMouseEnter={() => handleMouseEnter("developers")}
           >
-            <Link
-              href="#developers"
-              className="text-sm font-medium transition-colors hover:text-orange-500 py-5"
-              onClick={closeMegaMenu}
-            >
+            <span className="text-sm font-medium transition-colors hover:text-orange-500 py-5 cursor-pointer">
               Developers
-            </Link>
+            </span>
             {activeMenu === "developers" && megaMenuOpen && (
               <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-orange-500"></div>
             )}
@@ -348,13 +272,9 @@ export function Navbar() {
             className={cn("relative", activeMenu === "company" && megaMenuOpen ? "text-orange-500" : "text-white")}
             onMouseEnter={() => handleMouseEnter("company")}
           >
-            <Link
-              href="#company"
-              className="text-sm font-medium transition-colors hover:text-orange-500 py-5"
-              onClick={closeMegaMenu}
-            >
+            <span className="text-sm font-medium transition-colors hover:text-orange-500 py-5 cursor-pointer">
               Company
-            </Link>
+            </span>
             {activeMenu === "company" && megaMenuOpen && (
               <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-orange-500"></div>
             )}
